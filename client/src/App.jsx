@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
+
 function App() {
  const[name , setName] = useState()
  const[email , setEmail] = useState()
@@ -48,7 +49,7 @@ const handleSubmit = (e)=>{
   <p>Already Have an Account</p>
   
 </form>
-<Link to='/login' type='login' >Login</Link>
+<Link to='/login' type='login'>Login</Link>
     </div>
   )
 }
